@@ -15,6 +15,7 @@
 		1D4F7D412057B2EB0005623C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4F7D402057B2EB0005623C /* main.m */; };
 		1D4F7D4B2057B2EB0005623C /* XPPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4F7D4A2057B2EB0005623C /* XPPickerViewTests.m */; };
 		1D4F7D562057B2EB0005623C /* XPPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4F7D552057B2EB0005623C /* XPPickerViewUITests.m */; };
+		1D4F7D662057B3370005623C /* XPPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4F7D652057B3370005623C /* XPPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1D4F7D512057B2EB0005623C /* XPPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4F7D552057B2EB0005623C /* XPPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPPickerViewUITests.m; sourceTree = "<group>"; };
 		1D4F7D572057B2EB0005623C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D4F7D642057B3370005623C /* XPPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPPickerView.h; sourceTree = "<group>"; };
+		1D4F7D652057B3370005623C /* XPPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		1D4F7D302057B2EB0005623C /* XPPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				1D4F7D632057B3370005623C /* XPPickerView */,
 				1D4F7D312057B2EB0005623C /* AppDelegate.h */,
 				1D4F7D322057B2EB0005623C /* AppDelegate.m */,
 				1D4F7D342057B2EB0005623C /* ViewController.h */,
@@ -130,6 +134,15 @@
 				1D4F7D572057B2EB0005623C /* Info.plist */,
 			);
 			path = XPPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		1D4F7D632057B3370005623C /* XPPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1D4F7D642057B3370005623C /* XPPickerView.h */,
+				1D4F7D652057B3370005623C /* XPPickerView.m */,
+			);
+			path = XPPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				1D4F7D362057B2EB0005623C /* ViewController.m in Sources */,
 				1D4F7D412057B2EB0005623C /* main.m in Sources */,
+				1D4F7D662057B3370005623C /* XPPickerView.m in Sources */,
 				1D4F7D332057B2EB0005623C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUSFQUD8HW;
 				INFOPLIST_FILE = XPPickerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaopengmonsters.github.io.XPPickerView;
@@ -444,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XUSFQUD8HW;
 				INFOPLIST_FILE = XPPickerView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xiaopengmonsters.github.io.XPPickerView;
